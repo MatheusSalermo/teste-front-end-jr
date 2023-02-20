@@ -1,0 +1,104 @@
+.card * {
+    color: inherit;
+    font-weight: inherit;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+    color: #3F3F40;
+    font-size: 15px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 0.75em 1em;
+    width: 270px;
+}
+
+.card .price-details {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card h3 {
+    font-weight: 300;
+}
+
+.card s {
+    color: #808080;
+}
+
+.card strong {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.card small, .card p {
+    font-size: 0.75em;
+}
+
+.card p {
+    color: #F71963;
+}
+
+.card button {
+    background-color: #F71963;
+    border: solid 2px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    padding: 1em 4em;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #FFFFFF ;
+    border: solid 2px;
+    border-radius: 4px;
+    color: #F71963;
+    border-color: #F71963;
+    font-weight: 700;
+    padding: 1em 4em;
+    width: 100%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

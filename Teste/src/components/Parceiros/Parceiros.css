@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300&family=Poppins&display=swap');
+
+
+.linhaParc{
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-flow: row wrap;
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+  }
+
+  
+.colunaParc{
+    color: #FFFFFF;
+    align-items: center;
+    text-align:start;
+    width: 45%;
+    background-image: url(../../img/parceiros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10%;
+    border-radius: 8px;
+  }
+
+  .colunaParc h1{
+    color: #FFFFFF;
+    margin-left: 2%;
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .colunaParc h2{
+    color: #FFFFFF;
+    margin-left: 2%;
+    font-size: 16px;
+    margin-right: 70%;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+
+
+  .colunaParc2{
+    color: #FFFFFF;
+    align-items: center;
+    text-align:start;
+    width: 45%;
+    background-image: url(../../img/parceiros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+
+  .colunaParc2 h1{
+    color: #FFFFFF;
+    margin-left: 2%;
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .colunaParc2 h2{
+    color: #FFFFFF;
+    margin-left: 2%;
+    font-size: 16px;
+    margin-right: 70%;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+
+  .btnParc{
+    background-color: #F71963;
+    font-weight: bold;
+    margin-left: 2%;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 131px;
+    height: 3.5rem;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+
+.btnParc:hover{
+  background-color: #FFFFFF;
+  color: #F71963;
+  font-weight: bold;
+}
+
+  
